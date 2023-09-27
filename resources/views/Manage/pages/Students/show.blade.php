@@ -153,7 +153,7 @@
                                             <!-- Update Class Modal -->
                                         @include('Manage.pages.Subject.modals.UpdateSubjectModal', ['subject' => $subject])
                                         <!--/ Update Class Modal -->
-                                            <a href="{{ route('subject.show', $subject) }}" class="btn btn-sm bg-blue-500 text-white m-0 radius" title="edit">
+                                            <a href="{{ route('subject.show', $subject) }}" class="btn btn-sm bg-blue-500 text-white m-0 radius" title="views">
                                                 <i class="fas fa-eye" aria-hidden="true"></i>
                                             </a>
                                             <a href="{{ route('subject.assign-student', $subject) }}" class="btn btn-sm bg-yellow-500 text-white m-0 radius" title="Assign Students">

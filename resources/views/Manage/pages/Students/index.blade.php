@@ -68,7 +68,7 @@
                                             <!-- Update Student Modal -->
                                             @include('Manage.pages.Students.modals.UpdateStudentModal', ['student' => $student])
                                             <!--/ Update Student Modal -->
-                                            <a href="{{ route('student.show', $student) }}" class="btn btn-sm bg-blue-500 text-white m-0 radius" title="edit">
+                                            <a href="{{ route('student.show', $student) }}" class="btn btn-sm bg-blue-500 text-white m-0 radius" title="views">
                                                 <i class="fas fa-eye" aria-hidden="true"></i>
                                             </a>
                                             <form action="{{ route('student.destroy', $student) }}" class="d-inline" method="post">
